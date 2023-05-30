@@ -8,6 +8,7 @@
 
 body {
   position: relative;
+  background-color: #f7f7f8;
 }
 
 .padding {
@@ -251,6 +252,7 @@ h1 {
   max-width: 500px;
   justify-content: center;
   margin: auto;
+  transition: 300ms ease ease-out;
 }
 
 .arrowdown {
@@ -258,6 +260,103 @@ h1 {
   height: 5.33px;
   order: 1;
   flex-grow: 0;
+}
+
+/* about html styles */
+.margintop {
+  padding-top: 4rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.email_contact > p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  color: #7a7a7a;
+  width: 80%;
+  margin: auto;
+}
+
+.contactEmail {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  margin: auto;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #5f5f5f;
+  padding-bottom: 2rem;
+}
+
+.summits_info {
+  background: #fff;
+}
+
+.logoInfo h3 {
+  text-align: center;
+  padding-top: 1.2rem;
+}
+
+/* prev summit */
+.previpusSummit h3 {
+  padding: 2rem 1.2rem;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2c2c2c;
+}
+
+.previpusSummit p {
+  padding: 0 0 1rem 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  width: 80%;
+  margin: auto;
+  line-height: 21px;
+  align-items: center;
+  color: #838383;
+}
+
+.prevSummit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* footer */
+.aboutfooter {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1.2rem;
+  gap: 1rem;
+}
+
+.aboutfooter img {
+  width: 150px;
+}
+
+.aboutfooter p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #3b3e45;
 }
 
 /* my media queries */
