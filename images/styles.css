@@ -1,0 +1,157 @@
+* {
+  font-family: 'lato', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+.padding {
+  padding: 0.8rem;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.barsIcon {
+  display: none;
+  color: gray;
+  font-weight: 400;
+}
+
+.barsIcon:hover {
+  cursor: pointer;
+}
+
+.close {
+  display: none;
+  font-size: 30px;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+/* mobile nav  */
+.navbar {
+  display: flex;
+  padding: 1rem 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  backdrop-filter: blur(4px);
+  width: 100%;
+  transition: 300ms;
+}
+
+.navlinks {
+  padding-top: 4rem;
+  display: none;
+}
+
+.navlinks li {
+  width: 100%;
+}
+
+.navlinks li a {
+  font-size: 1.3rem;
+  display: flex;
+  margin: 0.5rem 0;
+  color: rgb(49, 44, 44);
+  font-weight: 500;
+  justify-content: center;
+}
+
+.navlinks li a:hover {
+  color: rgb(255, 71, 120);
+}
+
+/* container */
+.container {
+  /* padding: 5rem 2rem 0.8rem 0.8rem; */
+}
+
+.intro p,
+h1 {
+  color: rgb(255, 71, 120);
+}
+
+.intro p {
+  font-size: 26px;
+}
+
+.intro h1 {
+  font-size: 32px;
+  padding-top: 1.2rem;
+}
+
+.discription {
+  border: 2px solid #cbbdbd;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2rem;
+}
+
+.discription p {
+  color: gray;
+  padding: 0.8rem;
+}
+
+.banner h3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.venue {
+  font-size: 20px;
+  padding-top: 0.6rem;
+  padding-bottom: 2rem;
+}
+
+/* main program */
+.main-program {
+  background-color: rgba(10, 18, 38, 0.8);
+  padding: 0.8rem;
+}
+
+.program_head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.program_head > h3 {
+  font-size: 23px;
+  color: #f4f4f4;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.program_head div {
+  background-color: rgb(255, 71, 120);
+  width: 50px;
+  height: 1px;
+  border: none;
+  margin: 1.2rem auto 2rem auto;
+}
+
+.articles {
+  background-color: rgba(150, 150, 150, 0.4);
+}
+
+.articles p {
+  color: #f4f4f4;
+}
+
+/* my media queries */
+@media only screen and (min-width: 768px) {
+  .barsIcon {
+    visibility: hidden;
+  }
+}
