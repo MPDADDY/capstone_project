@@ -39,12 +39,21 @@ body {
 }
 
 /* mobile nav  */
+header {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.mylogo {
+  display: none;
+}
+
 .navbar {
   display: flex;
   padding: 1rem 0;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.9);
-  position: absolute;
+ /* background-color: rgba(67, 60, 60, 0.9); */
+ /* position: absolute; */
   backdrop-filter: blur(4px);
   width: 100%;
   transition: 300ms;
@@ -386,6 +395,9 @@ h1 {
 /* footer */
 .aboutfooter {
   background-color: #fff;
+}
+
+.footer {
   display: grid;
   grid-template-columns: auto auto;
   padding: 1.2rem;
@@ -407,9 +419,67 @@ h1 {
   color: #3b3e45;
 }
 
+/* desktopMenu */
+.desktopMenu {
+  display: none;
+}
+
+.desktopMenu li {
+  padding: 0 5px;
+}
+
+.active {
+  color: #f07f7e;
+}
+
 /* my media queries */
 @media only screen and (min-width: 768px) {
   .barsIcon {
     visibility: hidden;
+  }
+
+  .mylogo {
+    display: inline-block;
+  }
+
+  .deskMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+
+  .desktopMenu {
+    display: flex;
+    justify-content: space-between;
+   /* justify-content: space-around; */
+    padding: 0 4px;
+  }
+
+  .desktopDescription {
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+  }
+
+  .logoInfo,
+  .previpusSummit {
+    width: 80%;
+    margin: auto;
+  }
+
+  .prevSummit {
+    flex-direction: row;
+  }
+
+  .footer {
+    width: 70%;
+    margin: auto;
   }
 }
