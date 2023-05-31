@@ -38,6 +38,32 @@
           </li>
         </ul>
       </div>
+      <div class="deskMenu">
+        <div class="mylogo">
+          <a href="index.html">MyLogo</a>
+        </div>
+        <ul class="desktopMenu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Program</a>
+          </li>
+          <li>
+            <a href="#">join</a>
+          </li>
+          <li>
+            <a href="#">sponser</a>
+          </li>
+          <li>
+            <a href="#">news</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     </nav>
   </header>
   <main class="container">
@@ -61,32 +87,36 @@
         <h3>Main Program</h3>
         <div class="divLine"></div>
       </header>
-      <article class="articles">
-        <img src="images/program_icon_02 1.png" alt="">
-        <h4>Lecture</h4>
-        <p>Listen to the speakersfrom various countries about the messages of sharing and opening</p>
-      </article>
-      <article class="articles">
-        <img src="images/program_icon_03 1.png" alt="">
-        <h4>Cc Exhibition</h4>
-        <p>Appriciate various creations applying cc lixcence of artsts, orgernized from Art center Nabi</p>
-      </article>
-      <article class="articles">
-        <img src="images/program_icon_04 1.png" alt="">
-        <h4>Forum</h4>
-        <p>Have the time to share your thoughts and opinions with experts for each topic</p>
-      </article>
-      <article class="articles">
-        <img src="images/program_icon_05 1.png" alt="">
-        <h4>Workshop</h4>
-        <p>Try creating your own work using open source rather than just watching</p>
-      </article>
-      <article class="articles">
-        <img src="images/program_icon_02 1.png" alt="">
-        <h4>CC Ignite</h4>
-        <p>Get oportunities to network with CC affiliates around the world, also after the summit</p>
-      </article>
+
+       <section class="mainprogramarticles">
+        <article class="articles">
+          <img src="images/program_icon_02 1.png" alt="">
+          <h4>Lecture</h4>
+          <p>Listen to the speakersfrom various countries about the messages of sharing and opening</p>
+        </article>
+        <article class="articles">
+          <img src="images/program_icon_03 1.png" alt="">
+          <h4>Cc Exhibition</h4>
+          <p>Appriciate various creations applying cc lixcence of artsts, orgernized from Art center Nabi</p>
+        </article>
+        <article class="articles">
+          <img src="images/program_icon_04 1.png" alt="">
+          <h4>Forum</h4>
+          <p>Have the time to share your thoughts and opinions with experts for each topic</p>
+        </article>
+        <article class="articles">
+          <img src="images/program_icon_05 1.png" alt="">
+          <h4>Workshop</h4>
+          <p>Try creating your own work using open source rather than just watching</p>
+        </article>
+        <article class="articles">
+          <img src="images/program_icon_02 1.png" alt="">
+          <h4>CC Ignite</h4>
+          <p>Get oportunities to network with CC affiliates around the world, also after the summit</p>
+        </article>
+       </section>
       <div class="joinbtn">
+        <button class="desktopJoin" type="submit">SEE THE WHOLE PROGRAM</button>
         <button class="join" id="join" type="submit">Join CC global summit 2022</button>
       </div>
     </section>
@@ -94,33 +124,30 @@
       <!--not done yet with this section-->
       <h3>Featured Speakers</h3>
       <div class="divLine"></div>
-      <article class="speakers">
-        <div class="image">
-          <img src="/images/speaker_01 1 (1).png" alt="">
-        </div>
-        <div class="speakerInfo">
-          <h5>Yochai Benkler</h5>
-          <p class="profession">berkman proffesor of enterpreneual Legal studies at Harvard Law School</p>
-          <p></p>
-          <p class="description">Benler studies commons-based peer production, and published his seminal book. The
-            Wealth Of Networks in 2006</p>
-        </div>
-      </article>
-      <article class="speakers">
-        <div class="image">
-          <img src="/images/speaker_01 1.png" alt="">
-        </div>
-        <div class="speakerInfo">
-          <h5>SoyYeong Nor</h5>
-          <p class="profession">Derector of Art Center Nobi and a board member of CC Korea</p>
-          <p></p>
-          <p class="speakerdescription">As the main venue for new media art production in Korea, Nabi promotes
-            cross-disciplinery collaboration and understanding ampng science technology, humanitiea and the art.</p>
-        </div>
-      </article>
-      <button class="speakerbtn" type="submit">MORE <img class="arrowdown" src="images/arrow_down 1.png" alt="">
+      <!--speakers to be dynamically rendered using javascript-->
+      <div id="speakers" class="myFeaturedSpeakers"></div>
+      <button id="readmore" class="speakerbtn" type="submit">MORE <img class="arrowdown" src="images/arrow_down 1.png" alt="">
       </button>
     </section>
+    <section class="summits_info">
+      <article  class="partners">
+        <h5>Patner</h5>
+        <div class="divLine"></div>
+        <div class="patnerslogo">
+          <img src="images/mozilla 1.png" alt="">
+          <img src="images/airbnb 1.png" alt="">
+          <img src="images/googlekorea 1.png" alt="">
+          <img src="images/daumkakaologo 1.png" alt="">
+          <img src="images/naver 1.png" alt="">
+        </div>
+      </article>
+    </section>
+    <footer class="aboutfooter">
+       <div class="footer">
+        <img src="images/cck-logo1 1.png" alt="">
+        <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+       </div>
+    </footer>
   </main>
   <script src="script.js"></script>
 </body>

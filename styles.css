@@ -52,8 +52,6 @@ header {
   display: flex;
   padding: 1rem 0;
   flex-direction: column;
- /* background-color: rgba(67, 60, 60, 0.9); */
- /* position: absolute; */
   backdrop-filter: blur(4px);
   width: 100%;
   transition: 300ms;
@@ -135,6 +133,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: transparent !important;
 }
 
 .program_head > h3 {
@@ -187,6 +186,10 @@ h1 {
   padding: 20px;
 }
 
+.desktopJoin {
+  display: none;
+}
+
 .join {
   background-color: #ff4f38;
   width: auto;
@@ -204,6 +207,8 @@ h1 {
 /* featured speakers */
 .featuredSpeakers {
   background-color: #fff;
+  display: grid;
+  grid-template-columns: auto;
   padding: 0.8rem;
 }
 
@@ -217,8 +222,17 @@ h1 {
   justify-content: center;
 }
 
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
+
 .speakers {
   display: grid;
+  gap: 0.4rem;
   grid-template-columns: 1fr 2fr;
   margin: 1.2rem 0;
 }
@@ -231,6 +245,11 @@ h1 {
   display: flex;
   letter-spacing: -0.02em;
   color: #000;
+}
+
+.image img {
+  width: 100%;
+  max-width: 120px;
 }
 
 .profession {
@@ -262,6 +281,10 @@ h1 {
   justify-content: center;
   margin: auto;
   transition: 300ms ease ease-out;
+}
+
+.speakerbtn:hover {
+  cursor: pointer;
 }
 
 .arrowdown {
@@ -458,14 +481,83 @@ h1 {
   .desktopMenu {
     display: flex;
     justify-content: space-between;
-   /* justify-content: space-around; */
     padding: 0 4px;
+  }
+
+  .banner {
+    width: 70%;
+    margin: auto;
+  }
+
+  .intro h1 {
+    font-size: 43px;
   }
 
   .desktopDescription {
     background-color: #fff;
     width: 60%;
     margin: auto;
+  }
+
+  /* programe articles */
+  .mainprogramarticles {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .articles {
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .articles img {
+    margin: auto;
+  }
+
+  .articles h4 {
+    margin: auto;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .desktopJoin {
+    display: inline-block;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+
+  .desktopJoin:hover {
+    cursor: pointer;
+  }
+
+  .myFeaturedSpeakers {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    padding-bottom: 1.2rem;
+    width: 70%;
+
+    /* background-color: #f78c89; */
+    margin: auto;
+  }
+
+  .speakerbtn {
+    display: none;
   }
 
   .logoInfo,
