@@ -145,7 +145,7 @@ Example command:
 
 ### Deployment
 
-- click [capstone_project](https://github.com/MPDADDY/capstone_project) for the deployed site.
+- click [capstone_project](https://mpdaddy.github.io/capstone_project/) for the deployed site.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
