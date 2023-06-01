@@ -98,7 +98,7 @@ To run the project, execute the following command:
 make sure you are in the right directory that contains your project.Run this command: 'code .'
 and the project will open in your favourite text editor.
 
-git clone followed by the link you copied fromthe portfolio.
+git clone git@github.com:MPDADDY/capstone_project.git
 
 Example command:
 
