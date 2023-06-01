@@ -76,7 +76,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:MPDADDY/portfolio.git
+  git clone git@github.com:MPDADDY/capstone_project.git 
 ```
 ### Install
 
