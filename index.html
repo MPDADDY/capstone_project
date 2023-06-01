@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <!--font awsome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Capstone project</title>
+</head>
+
+<body>
+  <header>
+    <!--top nav-->
+    <nav class="topnav">
+      <div class="topnavcontainer">
+       <ul>
+        <li>
+          <a href="">
+            <i class="fa fa-facebook white hover" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fa fa-twitter white hover" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">English</a>
+        </li>
+        <li>
+          <a href="index.html">myPage</a>
+        </li>
+        <li>
+          <a href="">Logout</a>
+        </li>
+        <li>
+          <a href=""></a>
+        </li>
+       </ul>
+      </div>
+    </nav>
+    <!--bottom nav-->
+    <nav class="navbar">
+      <div class="cont">
+        <div class="padding">
+          <i id="bars" class="fa fa-bars absolute barsIcon" aria-hidden="true"></i>
+          <span id="close" class="absolute close">&times;</span>
+        </div>
+        <ul id="navlinks" class="navlinks padding">
+          <li>
+            <a class="mynav active" href="about.html">About</a>
+          </li>
+          <li>
+            <a class="mynav" href="#">Program</a>
+          </li>
+          <li>
+            <a class="mynav" href="#">join</a>
+          </li>
+          <li>
+            <a class="mynav" href="#">sponser</a>
+          </li>
+          <li>
+            <a class="mynav" href="#">news</a>
+          </li>
+          <li class="cc">
+            <img src="" alt="">
+            <a class="mynav" href="#">cc campaign</a>
+          </li>
+        </ul>
+      </div>
+      <!--desktop menu-->
+      <div class="deskMenu">
+        <div class="mylogo">
+          <a href="index.html">GlobalConcert</a>
+        </div>
+        <ul class="desktopMenu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="#">Program</a>
+          </li>
+          <li>
+            <a href="#">join</a>
+          </li>
+          <li>
+            <a href="#">sponser</a>
+          </li>
+          <li>
+            <a href="#">news</a>
+          </li>
+          <li class="cc">
+            <img src="images/CC Campaign@2x.png" alt="">
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="banner">
+      <div class="intro">
+        <p>&quot;Hello! Great people&quot;</p>
+        <h1>Best of<br> GLOBAL CONCERT<br> 2023</h1>
+      </div>
+      <div class="discription">
+        <p>A joyfull celebration believing inthe value of openness and sharing , creating a positive change with people
+          from over 80 countries is taking place in November, in Kenya
+        </p>
+      </div>
+      <h3>
+        2022.10,05(THUR) ~16(FRI)
+      </h3>
+      <p class="venue">@Nyayo Statium  Kenya,You Are Welcome.</p>
+    </section>
+    <section class="main-program">
+      <header class="program_head">
+        <h3>Main Program</h3>
+        <div class="divLine"></div>
+      </header>
+
+       <section class="mainprogramarticles">
+        <article class="articles">
+          <img src="images/program_icon_02 1.png" alt="icon representing lecture board">
+          <h4>Lecture</h4>
+          <p>Listen to the speakersfrom various countries about the messages of sharing and opening</p>
+        </article>
+        <article class="articles">
+          <img src="images/program_icon_03 1.png" alt="icon representing exhibition">
+          <h4>Cc Exhibition</h4>
+          <p>Appriciate various creations applying cc lixcence of artsts, orgernized from Art center Nabi</p>
+        </article>
+        <article class="articles">
+          <img src="images/program_icon_04 1.png" alt="icon representing forum">
+          <h4>Forum</h4>
+          <p>Have the time to share your thoughts and opinions with experts for each topic</p>
+        </article>
+        <article class="articles">
+          <img src="images/program_icon_05 1.png" alt="icon representing workshop">
+          <h4>Workshop</h4>
+          <p>Try creating your own work using open source rather than just watching</p>
+        </article>
+        <article class="articles">
+          <img src="images/program_icon_02 1.png" alt="icon representing conection with people around the world">
+          <h4>CC Ignite</h4>
+          <p>Get oportunities to network with CC affiliates around the world, also after the summit</p>
+        </article>
+       </section>
+      <div class="joinbtn">
+        <button class="desktopJoin" type="submit">SEE THE WHOLE PROGRAM</button>
+        <button class="join" id="join" type="submit">Join CC global summit 2022</button>
+      </div>
+    </section>
+    <section class="featuredSpeakers">
+      <!--not done yet with this section-->
+      <h3>Featured Speakers</h3>
+      <div class="divLine"></div>
+      <!--speakers to be dynamically rendered using javascript-->
+      <div id="speakers" class="myFeaturedSpeakers"></div>
+      <button id="readmore" class="speakerbtn" type="submit">MORE <img class="arrowdown" src="images/arrow_down 1.png" alt="">
+      </button>
+    </section>
+    <section class="summits_info">
+      <article  class="partners">
+        <h5>Patner</h5>
+        <div class="divLine"></div>
+        <div class="patnerslogo">
+          <img src="images/mozilla 1.png" alt="mozila logo">
+          <img src="images/airbnb 1.png" alt="airbnb logo">
+          <img src="images/googlekorea 1.png" alt=" googlekorea logo">
+          <img src="images/daumkakaologo 1.png" alt="daumkakaologo logo">
+          <img src="images/naver 1.png" alt=" naver logo">
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="aboutfooter">
+    <div class="footer">
+     <a href="index.html">GlobalConcert</a>
+     <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+    </div>
+ </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
