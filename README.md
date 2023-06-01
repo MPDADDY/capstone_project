@@ -128,7 +128,7 @@ Example command:
 
 ```sh
   cd my-project
-  gem install
+  npm install
 ```
 
 ### Usage
@@ -137,39 +137,16 @@ To run the project, execute the following command:
 make sure you are in the right directory that contains your project.Run this command: 'code .'
 and the project will open in your favourite text editor.
 
-<!--
+git clone followed by the link you copied fromthe portfolio.
+
 Example command:
 
-```sh
-  rails server
-```
---->
-<!-->
-### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
-- click [capstone_project](https://mpdaddy.github.io/portfolio/) for the deployed site.
+- click [capstone_project](https://github.com/MPDADDY/capstone_project) for the deployed site.
 
-
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
