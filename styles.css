@@ -43,6 +43,8 @@ body {
 header {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 1rem;
+  padding-top: -20rem;
 }
 
 .mylogo {
@@ -61,6 +63,7 @@ header {
 .navlinks {
   padding-top: 4rem;
   display: none;
+  height: 100vh;
 }
 
 .navlinks li {
@@ -74,6 +77,14 @@ header {
   color: rgb(49, 44, 44);
   font-weight: 500;
   justify-content: center;
+}
+
+.desktopMenu li {
+  padding: 0 5px;
+}
+
+.navlinks li:hover {
+  color: #ec4252;
 }
 
 /* top nav on the desktop */
@@ -96,6 +107,7 @@ header {
   margin: auto;
   display: flex;
   flex-direction: row;
+  padding: 13px 0 15px 0;
   justify-content: flex-end;
 }
 
@@ -112,14 +124,18 @@ header {
 }
 
 .cc {
+  display: none;
   margin-left: 1.4rem;
   padding-top: 0;
   margin-top: -7px;
   border: 4px solid #ec4252;
   font-size: 14px;
   line-height: 17px;
-  display: flex;
   align-items: center;
+}
+
+.cc:hover {
+  cursor: pointer;
 }
 
 /* container */
@@ -504,8 +520,8 @@ h1 {
   display: none;
 }
 
-.desktopMenu li {
-  padding: 0 5px;
+.desktopMenu li a:hover {
+  color: #ec4252;
 }
 
 .active {
@@ -520,6 +536,10 @@ h1 {
 
   .barsIcon {
     visibility: hidden;
+  }
+
+  .cc {
+    display: flex;
   }
 
   .mylogo {
@@ -574,6 +594,11 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    border: 2px solid transparent;
+  }
+
+  .articles:hover {
+    border: 2px solid #fff;
   }
 
   .articles img {

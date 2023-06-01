@@ -43,28 +43,7 @@ Assessment-project
 
 ### Tech Stack <a name="tech-stack"></a>
 This project is build using html and css and javascript.
-<!--
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
--->
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -77,17 +56,7 @@ Contains partners logos.
 COntains the meeting logo and the copyright
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-<!--
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
---->
-<!-- GETTING STARTED -->
+### Live Demo  - click [capstone_project](https://mpdaddy.github.io/capstone_project/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 Bellow is how you may want to use this project
@@ -97,14 +66,6 @@ Bellow is how you may want to use this project
 In order to run this project you need:
 
 terminal and your favourite editor.
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -121,7 +82,7 @@ Example commands:
 
 Install this project by: 
 cloning it to your local machine.
-using the command: [git clone] and pasting the link you you copied from github
+using the command: [git clone] and pasting https://github.com/MPDADDY/capstone_project link.
 
 
 Example command:
